@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/calculator.css";
 import { Button } from "./Button"
-import { OutlineButton } from "./OutlineButton"
+
 export const Calculator = () => {
     const [pencileClick, setPencilClick] = useState(false);
     const [showDetails, setShowDetails] = useState(false);
